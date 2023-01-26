@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="./imagenes/logo.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="JS/script.js"></script>
+    <title>Encriptador de Alura</title>
+</head>
+
+<body>
+    <div>.</div>
+    <header>
+        <img class="logo" src="imagenes/Logo.png" alt="logo de Alura">
+        <h1 class="textoLogo">Encriptador de Alura</h1>
+    </header>
+
+    <main class="container">
+
+        <section class="section1">
+            <textarea name="textoDeEntrada" id="textoDeEntrada" cols="30" rows="10"
+                placeholder="Ingrese su Texto aquí"></textarea>
+
+
+            <p class="advertencia">ingrese sólo texto en minúscula y sin acentos</p>
+        </section>
+
+        <section class="section2">
+
+            <img class="muñeco" id="munieco" src="imagenes/Muñeco.png" alt="mucheco del encriptador">
+            <p id="texto">Ningún mensaje fué encontrado</p>
+            <textarea name="textoDeSalida" id="textoDeSalida" cols="30" rows="10"
+                placeholder="Texto Encriptado"></textarea>
+
+        </section>
+
+        <section class="section3">
+            <button id="encriptar" class="botones" type="button" onclick="encriptar()">Encriptar</button>
+
+            <button id="desencriptar" class="botones" type="button" onclick="desencriptar()">Desencriptar</button>
+
+            <button id="copiar" class="botones" onclick="copiar()">Copiar</button>
+        </section>
+
+
+
+    </main>
+
+
+    <footer>
+        <p class="copyright">© Creado por Anjaroba </p>
+        <p class="nombre">Angel Javier Rodrigo Baiza</p>
+    </footer>
+
+
+</body>
+
+</html>

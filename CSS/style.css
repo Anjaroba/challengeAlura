@@ -1,0 +1,333 @@
+body {
+    background: #dbdfee;
+}
+
+div {
+    background: #dbdfee;
+
+}
+
+header {
+    background: #F3F5FC;
+    margin: auto;
+    padding: 5px;
+    width: 940px;
+    height: 90px;
+    margin-top: 5%;
+
+}
+
+.logo {
+    margin-top: 10px;
+    float: left;
+
+}
+
+.textoLogo {
+    font-size: xx-large;
+    margin-top: 20px;
+    color: #0A3871;
+
+}
+
+.container {
+    margin-top: 30%;
+    background: #F3F5FC;
+    margin: auto;
+    padding: 5px;
+    width: 940px;
+    height: 400px;
+
+}
+
+.section1 {
+    width: 70%;
+    height: 90%;
+    float: left;
+
+}
+
+#textoDeEntrada {
+    flex-basis: 100%;
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 32px;
+    line-height: 100%;
+    height: 90%;
+    color: #0A3871;
+    background-color: transparent;
+    resize: none;
+    border: none;
+
+}
+
+.advertencia {
+    font-size: small;
+    margin: 2px 0px 0px 50px;
+
+}
+
+.advertencia::before {
+    content: "! ";
+
+}
+
+.section2 {
+    width: 30%;
+    height: 90%;
+    float: right;
+
+}
+
+.muñeco {
+    width: 80%;
+
+}
+
+#texto {
+    text-align: center;
+}
+
+#textoDeSalida {
+    margin: 15px;
+    flex-basis: 30%;
+    margin-top: 25px;
+    margin-left: 30x;
+    font-size: 14px;
+    line-height: 100%;
+    color: #0A3871;
+    background-color: transparent;
+    resize: none;
+    border: none;
+    text-align: center;
+
+}
+
+.section3 {
+    width: 100%;
+    height: 10%;
+    float: left;
+    text-align: center;
+
+}
+
+#encriptar {
+    float: left;
+    width: 35%;
+    height: 100%;
+    border-radius: 24px;
+    /**background: #0A3871;
+    color: #D8DFE8;*/
+    font-size: xx-large;
+
+}
+
+#desencriptar {
+    float: left;
+    width: 35%;
+    height: 100%;
+    border-radius: 24px;
+    font-size: xx-large;
+
+}
+
+#copiar {
+    float: right;
+    width: 30%;
+    height: 100%;
+    border-radius: 24px;
+    display: none;
+    font-size: xx-large;
+
+}
+
+.botones:hover {
+    border-color: #000000;
+    background: #0A3871;
+    color: #dbdfee;
+
+}
+
+.botones:active {
+    border-color: #000000;
+    background: rgb(12, 53, 21);
+
+}
+
+footer {
+    margin-top: 2%;
+    height: auto;
+    text-align: center;
+    background: #dbdfee;
+
+}
+
+.copyrigth {
+    font-size: medium;
+
+}
+
+.copyrigth::before {
+    content: "© ";
+
+}
+
+@media screen and (max-width: 860px){
+    body{
+        width:410px;
+        height:auto;
+       
+    }
+        
+    header{
+        margin:0px;
+        width:412px;
+        font-size: 16px;
+
+    }
+    h1{
+      font-size: 16px;
+    }
+
+        .container{
+            width:410px;
+            height:760px;
+        }
+           
+        .section1{
+        margin:0px;
+        width:410px;
+        height:60%;
+        
+    }
+
+        #textoDeEntrada{
+            margin:15px;
+            width:90%;
+            height:80%;
+        }
+
+        .section2{
+        margin:0px;
+        width:410px;
+        height:30%;
+           
+    }
+    
+        #munieco{
+            display:none;
+        }
+        
+        #textoDeSalida{
+            width:410px;
+            height:80%;
+        }
+        
+        .section3{
+        font-size: 14px;
+        text-align: center;
+        margin:1px;
+        width:410px;
+        height:80px;
+            
+        
+    }
+    #encriptar{
+      height: 60%;
+      font-size: 14px;
+    }
+    
+    #desencriptar{
+      height: 60%;
+      font-size: 14px;
+    }
+    #copiar{
+       height: 60%;
+      font-size: 14px;
+    }
+
+      .btnEncriptar{
+            margin:0px;
+            width:30%;
+            height:auto;
+      }
+        
+        
+    footer{
+        margin:2px;
+        width:100%;
+    }
+
+}
+
+
+
+/**@media screen and (max-width: 860px) {
+    body {
+        width: 410px;
+        height: auto;
+
+    }
+
+    header {
+        margin: 0px;
+        width: 412px;
+
+    }
+
+    .container {
+        width: 410px;
+        height: 760px;
+    }
+
+    .section1 {
+        margin: 0px;
+        width: 410px;
+        height: 60%;
+
+    }
+
+    #textoDeEntrada {
+        margin: 15px;
+        width: 90%;
+        height: 80%;
+    }
+
+    .section2 {
+        margin: 0px;
+        width: 410px;
+        height: 30%;
+
+    }
+
+    #munieco {
+        display: none;
+    }
+
+    #textoDeSalida {
+        width: 410px;
+        height: 80%;
+    }
+
+    .section3 {
+
+        text-align: center;
+        margin: 1px;
+        width: 410px;
+        height: 80px;
+
+
+    }
+
+    .btnEncriptar {
+        margin: 0px;
+        width: auto;
+        height: auto;
+    }
+
+    footer {
+        margin: 2px;
+        width: 100%;
+    }
+
+}*/
